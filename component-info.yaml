@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "backstage-cluster"
+  annotations:
+    github.com/project-slug: hirveakshata/azure-kubernetes-cluster-template #name of the terraform repo
+    backstage.io/techdocs-ref: dir:.
+  title: "backstage-cluster"
+  description: "Creating backstage-cluster"
+  tags: ["azure-aks"]
+spec:
+  type: Infrastructure service
+  owner: user:guest
+  lifecycle: "Production"
